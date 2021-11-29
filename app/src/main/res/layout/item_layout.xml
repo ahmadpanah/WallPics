@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:backgroundTint="@color/black">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/image"
+                android:background="#37ECECEC"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:backgroundTint="@color/black"
+            android:background="#2E2E2E"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shariaty Class"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawableTint="@color/white"
+                android:textAlignment="center"
+                android:layout_gravity="bottom" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
