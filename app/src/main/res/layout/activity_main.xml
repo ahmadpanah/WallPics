@@ -7,6 +7,42 @@
     android:background="@drawable/gradinetbg"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/searchlayout"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/design_default_color_surface"
+            android:hint="Search Your Image!"
+            android:padding="10dp"
+            android:textColor="#161F51"
+            android:textColorHint="#364288"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_search"
+            android:layout_marginLeft="-50dp"
+            android:id="@+id/search"
+            android:background="@android:color/transparent"
+            app:tint="@color/purple_500"></ImageButton>
+
+    </LinearLayout>
+
 
 
 
