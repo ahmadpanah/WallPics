@@ -3,6 +3,7 @@
     package="ir.shariaty.wallpics">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
