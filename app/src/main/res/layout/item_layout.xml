@@ -40,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:text="Shariaty Class"
                 android:textSize="10sp"
+                android:id="@+id/textview"
                 android:textColor="@color/white"
                 android:padding="5dp"
                 android:drawablePadding="5dp"
