@@ -23,6 +23,10 @@
         android:backgroundTint="#FFC107"
         android:textColor="#050505"
         android:textStyle="bold"
-        android:layout_alignParentBottom="true"></Button>
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:id="@+id/set">
+
+    </Button>
 
 </RelativeLayout>
