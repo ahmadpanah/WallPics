@@ -29,8 +29,6 @@ public class SetWallpaper extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_set_wallpaper);
 
-        getSupportActionBar().hide();
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         final WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
 
         set = findViewById(R.id.set);
